@@ -6,7 +6,7 @@
   <project name="android_device_sony_taoshan" path="device/sony/taoshan" remote="skye" revision="lineage-15.1" />
   <project name="android_device_sony_common" path="device/sony/common" remote="LineageOS" revision="lineage-15.1" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="LineageOS" revision="lineage-15.1" />
-  <project name="proprietary_vendor_sony" path="vendor/sony" remote="skye" revision="lineage-15.1" />
+  <project name="android_vendor_sony_taoshan" path="vendor/sony/taoshan" remote="skye" revision="lineage-15.1" />
   <project name="android_kernel_sony_msm8930" path="kernel/sony/msm8930" remote="skye" revision="oreo" />
   
   <!-- Project replacements -->
