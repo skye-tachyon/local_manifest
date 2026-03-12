@@ -9,22 +9,6 @@
   <project name="android_vendor_sony_taoshan" path="vendor/sony/taoshan" remote="skye" revision="lineage-15.1" />
   <project name="android_kernel_sony_msm8930" path="kernel/sony/msm8930" remote="skye" revision="lineage-15.1" />
   
-  <!-- Project replacements -->
-  <remove-project name="LineageOS/android_bionic" />
-  <project name="android_bionic" path="bionic" remote="TeamButter" revision="lineage-15.1" />
-  
-  <remove-project name="LineageOS/android_frameworks_av" />
-  <project name="android_frameworks_av" path="frameworks/av" remote="TeamButter" revision="lineage-15.1" />
-  
-  <remove-project name="LineageOS/android_system_core" />
-  <project name="android_system_core" path="system/core" remote="TeamButter" revision="lineage-15.1" />
-  
-  <remove-project name="LineageOS/android_system_sepolicy" />
-  <project name="android_system_sepolicy" path="system/sepolicy" remote="TeamButter" revision="lineage-15.1" />
-  
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <project name="android_vendor_lineage" path="vendor/lineage" remote="TeamButter" revision="lineage-15.1" />
-  
   <!-- Remove unnecessary projects to save space -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
